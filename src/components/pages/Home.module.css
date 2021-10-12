@@ -1,0 +1,16 @@
+.imagee{
+    height: 300px;
+    width: -webkit-fill-available;
+}
+.card_style{
+    width: 30%;
+    float: left;
+    margin: 1rem;
+    border: 1px solid black;
+}
+@media screen and (max-width:770px) {
+    .card_style{
+        width: auto;
+        float: none;
+    }
+}
